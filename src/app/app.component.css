@@ -2,20 +2,39 @@
 h1 {
   margin-bottom: 0;
 }
+
 nav a {
   padding: 1rem;
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #e8e8e8;
-  color: #3d3d3d;
+  background-color: #3836FF;
+  color: white;
   border-radius: 4px;
 }
 
 nav a:hover {
   color: white;
-  background-color: #42545C;
+  background-color: #2D2BCB;
 }
 nav a.active {
   background-color: black;
+}
+
+.button {
+  margin: 5px;
+}
+
+.nav{
+  border-top: medium solid #F30003;
+  border-bottom: medium solid #F30003;
+  background-color: #F8CF17;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.center-title {
+  text-align: center;
 }
